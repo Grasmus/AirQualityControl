@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="50dp"
+        android:gravity="center"
+        tools:context=".feature.home.HomeFragment">
+
+        <TextView
+            style="@style/TextAppearance.AirQualityControl.H2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_title" />
+
+        <FrameLayout
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/homeAirQualityTextView"
+                style="@style/TextAppearance.AirQualityControl.H1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" />
+
+            <com.google.android.material.progressindicator.CircularProgressIndicator
+                android:id="@+id/homeAirQualityCircularProgressIndicator"
+                style="@style/AirQualityControl.CircularProgressIndicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/homeTemperatureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/temperature_text"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="15dp"
+            style="@style/TextAppearance.AirQualityControl.H3"/>
+
+        <TextView
+            android:id="@+id/homeHumidityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/humidity_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/TextAppearance.AirQualityControl.H3" />
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/homeHumidityLinearProgressIndicator"
+            style="@style/AirQualityControl.LinearProgressIndicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp" />
+
+        <TextView
+            android:id="@+id/homeDustConcentrationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/dust_concentration_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/TextAppearance.AirQualityControl.H3" />
+
+        <TextView
+            android:id="@+id/homePressureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/pressure_hPa_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/TextAppearance.AirQualityControl.H3" />
+
+        <TextView
+            android:id="@+id/homeGasLeakingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/gas_leaking_text"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            style="@style/TextAppearance.AirQualityControl.H3" />
+
+
+        <TextView
+            android:id="@+id/homeDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.AirQualityControl.H3"
+            android:layout_gravity="start"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:text="@string/last_reading_text" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AirQualityControl.CircularProgressIndicator" parent="">
+        <item name="indicatorSize">200dp</item>
+        <item name="trackThickness">15dp</item>
+        <item name="trackCornerRadius">25dp</item>
+    </style>
+
+    <style name="AirQualityControl.LinearProgressIndicator" parent="">
+        <item name="trackThickness">15dp</item>
+        <item name="trackCornerRadius">25dp</item>
+    </style>
+</resources>

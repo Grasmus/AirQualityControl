@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.AirQualityControl.H1" parent="">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">60sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextAppearance.AirQualityControl.H2" parent="">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextAppearance.AirQualityControl.H2_25" parent="">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="TextAppearance.AirQualityControl.H3" parent="">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Air Quality Control</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_charts">Charts</string>
+    <string name="home_title">Air quality score</string>
+    <string name="unknown_error">Unknown error occurred!</string>
+    <string name="check_network">Check you internet connection</string>
+    <string name="button_text_try_again">Try again</string>
+    <string name="date_pick_graph_day_title">Pick day to show</string>
+    <string name="temperature_text">Temperature: %1$.2f°C</string>
+    <string name="humidity_text">Humidity: %1$.1f%%</string>
+    <string name="dust_concentration_text">Dust concentration: %1$.2f ug/m3</string>
+    <string name="gas_leaking_text">Gas leaking: %1$s</string>
+    <string name="button_choose_date">Choose date</string>
+    <string name="last_reading_text">Last reading for %1$s</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="pressure_hPa_text">Air pressure: %1$.2f hPa</string>
+    <string name="pressure_mmHg_text">Air pressure: %1$.2f mmHg</string>
+</resources>

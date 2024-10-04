@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".feature.graph.ChartFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Spinner
+                android:id="@+id/graphChooseViewBySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/green_a700" />
+
+            <Spinner
+                android:id="@+id/graphChooseDurationSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/green_a700" />
+
+            <Button
+                android:id="@+id/graphChooseDateButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:text="@string/button_choose_date" />
+        </LinearLayout>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/airQualityChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/temperatureChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/humidityChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/dustConcentrationChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/pressureChart"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+    </LinearLayout>
+</ScrollView>
